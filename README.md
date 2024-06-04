@@ -1,10 +1,6 @@
 # E-Commerce (Code With Antonio)
 Full Stack E-Commerce + Dashboard &amp; CMS- Next.js 13 App Router, React, Tailwind, Prisma, MySQL
 
-Admin Live: https://e-commerce-admin-rahul8864.vercel.app/
-
-Store Live: https://e-commerce-store-seven-sooty.vercel.app/
-
 Tech Stack: clerk, stripe, prisma, planetscaler, nextjs
 
 you have to install all the node packages 
@@ -34,3 +30,6 @@ FRONTEND_STORE_URL=http://127.0.0.1:3001    //[the link could be different in yo
 ```
 NEXT_PUBLIC_API_URL=""      //[inside the quotes you'll need to paste the api key which you will get in the setting page of admin]
 ```
+
+The billboard of the homepage in store is hard coded. You'll find the file for that in store/app/(routes)/page.tsx 
+Copy the billboard id from admin and paste the string in place of the already existing sring in the billboard variable
