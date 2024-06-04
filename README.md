@@ -13,7 +13,7 @@ connect supabase to your github and do the changes in the .env file of both the 
 i'll provide the total info of .env file and from which website you'll get the api keys, the uri(s) and everything.
 
 //.env of admin
-
+```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=      [paste the publishable key from clerk project (without quotes)]
 CLERK_SECRET_KEY=       [paste the secret key from clerk.com (without the quotes)]
 
@@ -27,7 +27,8 @@ NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""    [paste the cloud name of your cloudinary
 
 STRIPE_API_KEY=     [here paste the secret key of your stripe.com id (without quotes)]
 FRONTEND_STORE_URL=http://127.0.0.1:3001    [the link could be different in your case, the link is nothing but the server link of the store when you npm run dev the cd store]
-
-//.env of store
-
+```
+<h3>.env of store</h3>
+```
 NEXT_PUBLIC_API_URL=""      [inside the quotes you'll need to paste the api key which you will get in the setting page of admin]
+```
