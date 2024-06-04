@@ -12,21 +12,22 @@ change the database form supabase
 connect supabase to your github and do the changes in the .env file of both the folder - admin and -store 
 i'll provide the total info of .env file and from which website you'll get the api keys, the uri(s) and everything.
 
-//.env of admin
+<h3>.env of admin</h3>
+
 ```
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=      [paste the publishable key from clerk project (without quotes)]
-CLERK_SECRET_KEY=       [paste the secret key from clerk.com (without the quotes)]
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=      //[paste the publishable key from clerk project (without quotes)]
+CLERK_SECRET_KEY=       //[paste the secret key from clerk.com (without the quotes)]
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
-DATABASE_URL=""     [here inside the quotes you need the paste the uri. Log into supabase.com and create a project. then  go to uri option, change the mode from transaction to session and then copy the link and paste it here within the quotes]
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""    [paste the cloud name of your cloudinary.com profile (within the quotes)]
+DATABASE_URL=""     //[here inside the quotes you need the paste the uri. Log into supabase.com and create a project. then  go to uri option, change the mode from transaction to session and then copy the link and paste it here within the quotes]
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""    //[paste the cloud name of your cloudinary.com profile (within the quotes)]
 
-STRIPE_API_KEY=     [here paste the secret key of your stripe.com id (without quotes)]
-FRONTEND_STORE_URL=http://127.0.0.1:3001    [the link could be different in your case, the link is nothing but the server link of the store when you npm run dev the cd store]
+STRIPE_API_KEY=     //[here paste the secret key of your stripe.com id (without quotes)]
+FRONTEND_STORE_URL=http://127.0.0.1:3001    //[the link could be different in your case, the link is nothing but the server link of the store when you npm run dev the cd store]
 ```
 <h3>.env of store</h3>
 
