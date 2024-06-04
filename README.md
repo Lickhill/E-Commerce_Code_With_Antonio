@@ -29,6 +29,7 @@ STRIPE_API_KEY=     [here paste the secret key of your stripe.com id (without qu
 FRONTEND_STORE_URL=http://127.0.0.1:3001    [the link could be different in your case, the link is nothing but the server link of the store when you npm run dev the cd store]
 ```
 <h3>.env of store</h3>
+
 ```
-NEXT_PUBLIC_API_URL=""      [inside the quotes you'll need to paste the api key which you will get in the setting page of admin]
+NEXT_PUBLIC_API_URL=""      //[inside the quotes you'll need to paste the api key which you will get in the setting page of admin]
 ```
